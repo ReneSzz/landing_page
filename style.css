@@ -38,6 +38,7 @@ color: #e5e7eb;
 .headerLogoText {
 
     font-size: 24px;
+    font-weight: 600;
     color: #f9faf8; 
     }
 
@@ -45,7 +46,7 @@ color: #e5e7eb;
 
 
 
-.headerContent { 
+.headerBar{ 
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -53,8 +54,8 @@ justify-content: space-between;
 }
 
 
-.headerLinks { 
-
+.headerContent { 
+    
 }
 .information{}
 
