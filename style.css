@@ -46,11 +46,15 @@ margin-left: 64px;
 gap: 180px;
 }
 
+.links:hover{ 
+text-decoration: underline;
+
+}
+
 .right-links { 
 padding-left: 60px;
 }
  
-
 
 .header-content { 
     padding-top: 80px;
@@ -84,7 +88,11 @@ margin-right: 375px;
 margin-top: -15px;
 }
 
-
+.buttons:hover { 
+    background-color: #f9faf8;
+    transition: 0.7s;
+    color: #1f2937;
+}
 .headerText p { 
 width: 450px;
 
@@ -236,9 +244,25 @@ height: 600px;
 }
 
 
+/* 
+Call to action 
+*/ 
+
+.callToAction { 
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+
+}
 
 
 
 
 .footer{
 background-color: #1f2937;}
+
+
