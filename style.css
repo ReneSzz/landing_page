@@ -147,7 +147,12 @@ text-decoration: none;
 
 
 
-.information{}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .informationHeader{ 
 font-size: 36px;
@@ -155,6 +160,42 @@ font-weight: 900;
 color: #1f2937; 
 }
 
+.informationContent { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    width: 100%;
+    
+}
+
+
+.infoCards { 
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-basis:  0 0 50px;
+height: 400px;
+max-width: 250px;
+word-wrap: break-word;
+
+}
+
+.text{ 
+    max-width: 250px;
+}
+.card{ 
+   
+    background-color: #f9faf8;
+    padding: 16px;
+    margin: 16px;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    border: solid #3882f6;
+    border-width: 4px;
+  }
 
 .quote { 
 background-color: #e5e7eb;
