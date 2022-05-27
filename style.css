@@ -7,13 +7,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.quoteText{ 
-
-color:#1f2937; 
-font-style: italic;
-}
-
-
 
 
 .body{ 
@@ -137,7 +130,9 @@ text-decoration: none;
 } 
 
 
-
+/* 
+Info section
+*/ 
 
 
 
@@ -197,9 +192,51 @@ word-wrap: break-word;
     border-width: 4px;
   }
 
+
+
+
+
+
+
+
+
+
+/* Quote section */
+
 .quote { 
 background-color: #e5e7eb;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 600px;
 }
+
+
+.quoteText{ 
+
+    color:#1f2937; 
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+    max-width: 900px;
+   
+
+
+    }
+    
+.quoteAuthor{ 
+
+    color:#1f2937; 
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 499px;
+
+}
+
+
+
 
 
 
