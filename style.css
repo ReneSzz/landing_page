@@ -1,49 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body { 
+margin:0;
+padding:0;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.quoteText{ 
+
+color:#1f2937; 
+font-style: italic;
+}
+
+
+
+
 .body{ 
 font-family: 'Roboto', sans-serif;
 display: flex;
 flex-direction: column;
 
+
+
 }
+
+
+/* Header 
+
+*/
+
 
 .header {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    
-   
-    }
-
-    
-.heroMainText{ 
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
-
-.heroSecondaryText { 
+font-family: 'Roboto', sans-serif;
+background-color: #1f2937;
 display: flex;
-font-size: 18px;
-color: #e5e7eb;
+flex-direction: column;
+
+
+
 }
-
-.heroSecondaryText, ul, li { 
-    display: inline-table;
-    list-style: none;
-    } 
-
-
-.headerLogoText {
-
-    font-size: 24px;
-    font-weight: 600;
-    color: #f9faf8; 
-    }
-
-
-
 
 
 .headerBar{ 
@@ -53,16 +49,88 @@ justify-content: space-between;
 
 }
 
-
 .headerContent { 
-    
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
+
+.buttons { 
+background: #3882f6;
+color: #f9faf8;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+padding: 6px 16px;
+border: none;
+border-radius: 8px;
+
+}
+
+
+.headerContent p { 
+width: 400px;
+
+}
+
+a:link, a:visited {
+    color: #f9faf8;
+}
+a:hover {
+    color: #f9faf8;
+}
+
+
+
+
+
+.headerLogoText {
+
+font-size: 24px;
+font-weight: 600;
+color: #f9faf8; 
+margin-left: 120px;
+}
+
+.heroMainText{ 
+font-size: 48px;
+font-weight: 900;
+color: #f9faf8;
+margin-bottom: -25px;
+width: 400px;
+}
+
+.heroSecondaryText { 
+font-size: 18px;
+color: #e5e7eb;
+}
+
+
+.heroSecondaryText, ul, li, a { 
+display: inline-table;
+list-style: none;
+margin-right:  16px;
+text-decoration: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 .information{}
 
 .informationHeader{ 
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937; 
+font-size: 36px;
+font-weight: 900;
+color: #1f2937; 
 }
 
 
@@ -70,17 +138,7 @@ justify-content: space-between;
 background-color: #e5e7eb;
 }
 
-.quoteText{ 
-
-    color:#1f2937; 
-    font-style: italic;
-}
-
-
-.callToAction{ 
-    color: #3882f6;
-}
 
 
 .footer{
-    background-color: #1f2937;}
+background-color: #1f2937;}
