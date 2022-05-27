@@ -2,13 +2,13 @@
 
 
 .header {
-
+background-color: #1f2937;
 }
 
 .information{}
 
 .quote{ 
-
+background-color: #e5e7eb;
 }
 
 .callToAction{ 
@@ -16,4 +16,5 @@
 }
 
 
-.footer{}
+.footer{
+    background-color: #1f2937;}
