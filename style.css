@@ -1,18 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.body{ 
+font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
 
-
-.header {
-background-color: #1f2937;
 }
 
+.header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    
+   
+    }
+
+    
+.heroMainText{ 
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.heroSecondaryText { 
+display: flex;
+font-size: 18px;
+color: #e5e7eb;
+}
+
+.heroSecondaryText, ul, li { 
+    display: inline-table;
+    list-style: none;
+    } 
+
+
+.headerLogoText {
+
+    font-size: 24px;
+    color: #f9faf8; 
+    }
+
+
+
+
+
+.headerContent { 
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.headerLinks { 
+
+}
 .information{}
 
-.quote{ 
+.informationHeader{ 
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937; 
+}
+
+
+.quote { 
 background-color: #e5e7eb;
 }
 
-.callToAction{ 
+.quoteText{ 
 
+    color:#1f2937; 
+    font-style: italic;
+}
+
+
+.callToAction{ 
+    color: #3882f6;
 }
 
 
