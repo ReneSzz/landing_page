@@ -37,6 +37,7 @@ background-color: #1f2937;
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-bottom: 64px;
 
 
 
@@ -46,19 +47,33 @@ align-items: center;
 .headerBar{ 
 display: flex;
 flex: 1;
-width: 100%;
-
+align-items: center;
+justify-content: space-between;
+margin-left: 64px;
+gap: 180px;
 }
 
 .right-links { 
-margin-left: auto;
+padding-left: 60px;
 }
  
+
+
+.header-content { 
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
 .headerText {
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: space-between;
-width: 450px;
+width: 475px;
 flex-wrap: wrap;
 
 }
@@ -85,9 +100,7 @@ width: 450px;
 a:link, a:visited {
     color: #f9faf8;
 }
-a:hover {
-    color: #f9faf8;
-}
+
 
 
 
