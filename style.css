@@ -259,8 +259,28 @@ Call to action
 
 }
 
+.callContainer { 
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.buttons2 { 
+    background: #3882f6;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 8px;
+    border: solid #f9faf8;
+    border-width:1px;
+    }
 
 .footer{
 background-color: #1f2937;}
